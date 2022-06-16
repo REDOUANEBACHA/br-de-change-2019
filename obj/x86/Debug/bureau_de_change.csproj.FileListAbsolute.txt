@@ -1,0 +1,58 @@
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\bin\Debug\bureau_de_change.exe
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\bin\Debug\bureau_de_change.pdb
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.ajouter_employer.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.directeur.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.Form1.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.gestion_emlpyer.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.Properties.Resources.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.csproj.GenerateResource.Cache
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.exe
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.pdb
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.modification_demployer.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.supresion_d_employer.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.vent.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\bin\Debug\easy_change.sdf
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\bin\Debug\bureau_de_change.exe.config
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.ana.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.csprojResolveAssemblyReference.cache
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.emploiyer.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.achat.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.ajouter_devis.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.devis.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.modifier_devis.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.suprimer_devis.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.table_de_bord.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.les_profit_et_les_operation.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.table_les_emploiye.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.client_vent.resources
+C:\Users\AITELBACHA\Desktop\bureau_de_change\bureau_de_change\obj\x86\Debug\bureau_de_change.client_achat.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\bin\Debug\bureau_de_change.exe.config
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.exe
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.pdb
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\bin\Debug\easy_change.sdf
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\bin\Debug\bureau_de_change.exe
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\bin\Debug\bureau_de_change.pdb
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.csprojResolveAssemblyReference.cache
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.achat.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.ajouter_devis.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.ajouter_employer.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.ana.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.client_achat.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.client_vent.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.devis.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.directeur.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.emploiyer.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.Form1.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.gestion_emlpyer.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.les_profit_et_les_operation.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.modification_demployer.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.modifier_devis.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.Properties.Resources.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.supresion_d_employer.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.suprimer_devis.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.table_de_bord.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.table_les_emploiye.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.vent.resources
+C:\Users\AITELBACHA\Desktop\( app stage BR_CH)\bureau_de_change\obj\x86\Debug\bureau_de_change.csproj.GenerateResource.Cache
+C:\Users\raite\OneDrive\Bureau\bureau_de_change\obj\x86\Debug\bureau_de_change.csprojAssemblyReference.cache
+C:\Users\raite\OneDrive\Bureau\bureau_de_change\obj\x86\Debug\bureau_de_change.pdb

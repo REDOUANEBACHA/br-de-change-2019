@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<syncDesignerSurface dslVersion="1.0.0.0" Id="f56827de-6889-4789-bda0-a89b6a563fa4" parentDesignerName="easy_changeCache" codeGenerationMode="Client et serveur" synchronizeInOneTransaction="false" clientFileLocation="b0ff118e-7ecc-42af-90c2-8dde80afd190" serverFileLocation="b0ff118e-7ecc-42af-90c2-8dde80afd190" isRootSyncDesigner="true" rootSyncDesignerShouldGenerateCode="true" isClientSyncDesigner="false" isServerSyncDesigner="false" changeTrackingType="SqlServerChangeTracking" xmlns="http://schemas.microsoft.com/dsltools/SyncDesigner">
+  <syncAdapters>
+    <syncAdapter Id="db063577-1a63-4e40-999f-eaead99e33cc" name="achatSyncAdapter" tableName="achat">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="4c901d10-fdae-4104-a5e1-1b2ea293bfef" name="clientSyncAdapter" tableName="client">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="554b0dd0-7374-48c0-b9a2-d6769ec3fb7c" name="deviseSyncAdapter" tableName="devise">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="2b471dda-b76c-4fba-ada0-9adff0d47ca6" name="directeurSyncAdapter" tableName="directeur">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="c62a5cea-df79-422a-a400-a9dff7390519" name="employéSyncAdapter" tableName="employé">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="e52efbd6-abcd-4714-8ef3-be39a75f21b5" name="venteSyncAdapter" tableName="vente">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+  </syncAdapters>
+  <syncTables>
+    <syncTable Id="fee7e61a-c17d-4758-95e2-674c9e8d14c6" name="achatSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="achat" deletedItemsTableName="achat_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.achat" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="a6970650-04e4-487b-8ee7-aa309dbcdacb" name="clientSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="client" deletedItemsTableName="client_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.client" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="b76e1598-e278-498e-a5d2-752d686ded1a" name="deviseSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="devise" deletedItemsTableName="devise_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.devise" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="023d8364-b90a-48ee-8b29-d2f3cc3d1211" name="directeurSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="directeur" deletedItemsTableName="directeur_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.directeur" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="78a0f4e5-ac3b-4a0d-9258-b7c20a8f6f8b" name="employéSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="employé" deletedItemsTableName="employé_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.employé" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="75658efa-d9a4-47f0-8bbb-9c46a15cb88b" name="venteSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="vente" deletedItemsTableName="vente_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.vente" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncGroup" />
+      </syncGroup>
+    </syncTable>
+  </syncTables>
+  <syncGroups>
+    <syncGroup Id="b6db258b-de20-405d-8760-66baf1967582" name="achatSyncGroup" />
+    <syncGroup Id="e657bc79-3a2d-430f-b0bc-2d75f3bf4e42" name="clientSyncGroup" />
+    <syncGroup Id="c7de8053-34ac-49ec-9552-be09c316aa9f" name="deviseSyncGroup" />
+    <syncGroup Id="a1f13de1-8b0a-467b-b220-e9bed4e729a4" name="directeurSyncGroup" />
+    <syncGroup Id="0ddb3919-78f3-44a2-86c6-bede5dc04fd6" name="employéSyncGroup" />
+    <syncGroup Id="3b8cecc3-76da-44f3-8b1c-292f9f84ee9c" name="venteSyncGroup" />
+  </syncGroups>
+  <clientSyncProvider>
+    <clientSyncProvider Id="8694c122-1aec-458e-91c8-2a7f3ec47942" name="easy_changeCacheClientSyncProvider">
+      <syncConnection>
+        <syncConnectionMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/ClientConnection" />
+      </syncConnection>
+    </clientSyncProvider>
+  </clientSyncProvider>
+  <serverSyncProvider>
+    <serverSyncProvider Id="bc077ed5-ad52-4bcd-94e0-d76461b120e3" name="easy_changeCacheServerSyncProvider">
+      <syncAdapters>
+        <syncAdapterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncAdapter" />
+        <syncAdapterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncAdapter" />
+        <syncAdapterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncAdapter" />
+        <syncAdapterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncAdapter" />
+        <syncAdapterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncAdapter" />
+        <syncAdapterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncAdapter" />
+      </syncAdapters>
+      <syncConnection>
+        <syncConnectionMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/ServerConnection" />
+      </syncConnection>
+      <selectNewAnchorCommand>
+        <syncAdapterCommandMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/selectNewAnchorCmd" />
+      </selectNewAnchorCommand>
+    </serverSyncProvider>
+  </serverSyncProvider>
+  <syncAgent>
+    <syncAgent name="easy_changeCacheSyncAgent" synchronizeInOneTransaction="false">
+      <serverSyncProvider>
+        <serverSyncProviderMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/easy_changeCacheServerSyncProvider" />
+      </serverSyncProvider>
+      <clientSyncProvider>
+        <clientSyncProviderMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/easy_changeCacheClientSyncProvider" />
+      </clientSyncProvider>
+      <syncTables>
+        <syncTableMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/achatSyncTable" />
+        <syncTableMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/clientSyncTable" />
+        <syncTableMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/deviseSyncTable" />
+        <syncTableMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/directeurSyncTable" />
+        <syncTableMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/employéSyncTable" />
+        <syncTableMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/venteSyncTable" />
+      </syncTables>
+    </syncAgent>
+  </syncAgent>
+  <syncAdapterCommands>
+    <syncAdapterCommand Id="d03b8da4-8fc8-4524-9099-eccd32f6f408" commandText=" SET IDENTITY_INSERT dbo.achat ON ;WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) INSERT INTO dbo.achat ([id_achat], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [montant_achat], [date_achat]) VALUES (@id_achat, @id_employé, @id_client, @nom_devise, @prix_devise_dh, @prix_devise_en_achat_dh, @montant_achat, @date_achat) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.achat')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.achat')  SET IDENTITY_INSERT dbo.achat OFF " commandType="Text" name="achatSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_achat" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_devise" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_dh" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_achat_dh" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@montant_achat" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@date_achat" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="48048be6-7821-4079-98c2-84134bf335fa" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) DELETE dbo.achat FROM dbo.achat JOIN CHANGETABLE(VERSION dbo.achat, ([id_achat]), (@id_achat)) CT  ON CT.[id_achat] = dbo.achat.[id_achat] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.achat')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.achat') " commandType="Text" name="achatSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_achat1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count1" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="7e5a777d-97d1-4cc3-a0f9-00308843d44d" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) UPDATE dbo.achat SET [id_employé] = @id_employé, [id_client] = @id_client, [nom_devise] = @nom_devise, [prix_devise_dh] = @prix_devise_dh, [prix_devise_en_achat_dh] = @prix_devise_en_achat_dh, [montant_achat] = @montant_achat, [date_achat] = @date_achat FROM dbo.achat  JOIN CHANGETABLE(VERSION dbo.achat, ([id_achat]), (@id_achat)) CT  ON CT.[id_achat] = dbo.achat.[id_achat] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.achat')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.achat') " commandType="Text" name="achatSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_devise1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_dh1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_achat_dh1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@montant_achat1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@date_achat1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_achat2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count2" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="98239ee1-14e7-46da-b588-06edc39594ea" commandText="SELECT CT.[id_achat], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM CHANGETABLE(CHANGES dbo.achat, @sync_last_received_anchor) CT WHERE (CT.[id_achat] = @id_achat AND CT.SYS_CHANGE_OPERATION = 'D')" commandType="Text" name="achatSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_achat3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="8ce972d6-8cc0-49e0-9827-b8247805dd8d" commandText="SELECT dbo.achat.[id_achat], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [montant_achat], [date_achat], [profit_vente], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM dbo.achat JOIN CHANGETABLE(VERSION dbo.achat, ([id_achat]), (@id_achat)) CT  ON CT.[id_achat] = dbo.achat.[id_achat]" commandType="Text" name="achatSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_achat4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="c2bcd6a5-6d9c-4cac-aa16-a1bbea4aadcd" commandText="IF @sync_initialized = 0 SELECT dbo.achat.[id_achat], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [montant_achat], [date_achat], [profit_vente] FROM dbo.achat LEFT OUTER JOIN CHANGETABLE(CHANGES dbo.achat, @sync_last_received_anchor) CT ON CT.[id_achat] = dbo.achat.[id_achat] WHERE (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary) ELSE  BEGIN SELECT dbo.achat.[id_achat], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [montant_achat], [date_achat], [profit_vente] FROM dbo.achat JOIN CHANGETABLE(CHANGES dbo.achat, @sync_last_received_anchor) CT ON CT.[id_achat] = dbo.achat.[id_achat] WHERE (CT.SYS_CHANGE_OPERATION = 'I' AND CT.SYS_CHANGE_CREATION_VERSION  &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.achat')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.achat')  END " commandType="Text" name="achatSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="996aa503-4403-43e8-83e7-2d97b5852f70" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT CT.[id_achat] FROM CHANGETABLE(CHANGES dbo.achat, @sync_last_received_anchor) CT WHERE (CT.SYS_CHANGE_OPERATION = 'D' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.achat')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.achat')  END " commandType="Text" name="achatSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor5" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0435902a-2ccc-457f-b580-e77c385a0569" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT dbo.achat.[id_achat], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [montant_achat], [date_achat], [profit_vente] FROM dbo.achat JOIN CHANGETABLE(CHANGES dbo.achat, @sync_last_received_anchor) CT ON CT.[id_achat] = dbo.achat.[id_achat] WHERE (CT.SYS_CHANGE_OPERATION = 'U' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.achat')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.achat')  END " commandType="Text" name="achatSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor6" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary5" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="724ccb53-06cc-45d0-84c7-384429e37113" commandText=" SET IDENTITY_INSERT dbo.client ON ;WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) INSERT INTO dbo.client ([id_client], [CNI_client], [num_paspor], [nom_client], [prénom_client], [adresse_client], [date_naissance_client], [tel_client], [pays], [qualite]) VALUES (@id_client, @CNI_client, @num_paspor, @nom_client, @prénom_client, @adresse_client, @date_naissance_client, @tel_client, @pays, @qualite) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.client')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.client')  SET IDENTITY_INSERT dbo.client OFF " commandType="Text" name="clientSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary6" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@CNI_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@num_paspor" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prénom_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@adresse_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@date_naissance_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@tel_client" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@pays" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@qualite" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor7" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="2977e9bf-18d2-48e3-9c01-0d8a60f597e9" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) DELETE dbo.client FROM dbo.client JOIN CHANGETABLE(VERSION dbo.client, ([id_client]), (@id_client)) CT  ON CT.[id_client] = dbo.client.[id_client] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.client')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.client') " commandType="Text" name="clientSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary7" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="71b292d3-7e23-40aa-aa88-2c179e3d4aa5" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) UPDATE dbo.client SET [CNI_client] = @CNI_client, [num_paspor] = @num_paspor, [nom_client] = @nom_client, [prénom_client] = @prénom_client, [adresse_client] = @adresse_client, [date_naissance_client] = @date_naissance_client, [tel_client] = @tel_client, [pays] = @pays, [qualite] = @qualite FROM dbo.client  JOIN CHANGETABLE(VERSION dbo.client, ([id_client]), (@id_client)) CT  ON CT.[id_client] = dbo.client.[id_client] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.client')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.client') " commandType="Text" name="clientSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@CNI_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@num_paspor1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prénom_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@adresse_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@date_naissance_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@tel_client1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@pays1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@qualite1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor9" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count5" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="fd282665-6616-4bdb-983c-7363fae79bd9" commandText="SELECT CT.[id_client], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM CHANGETABLE(CHANGES dbo.client, @sync_last_received_anchor) CT WHERE (CT.[id_client] = @id_client AND CT.SYS_CHANGE_OPERATION = 'D')" commandType="Text" name="clientSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor10" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client5" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="d6ab0916-e54b-4b7b-8a8d-afe43ce8234e" commandText="SELECT dbo.client.[id_client], [CNI_client], [num_paspor], [nom_client], [prénom_client], [adresse_client], [date_naissance_client], [tel_client], [pays], [qualite], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM dbo.client JOIN CHANGETABLE(VERSION dbo.client, ([id_client]), (@id_client)) CT  ON CT.[id_client] = dbo.client.[id_client]" commandType="Text" name="clientSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client6" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="76e0c63b-0a15-4261-911d-806118ee0e2f" commandText="IF @sync_initialized = 0 SELECT dbo.client.[id_client], [CNI_client], [num_paspor], [nom_client], [prénom_client], [adresse_client], [date_naissance_client], [tel_client], [pays], [qualite] FROM dbo.client LEFT OUTER JOIN CHANGETABLE(CHANGES dbo.client, @sync_last_received_anchor) CT ON CT.[id_client] = dbo.client.[id_client] WHERE (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary) ELSE  BEGIN SELECT dbo.client.[id_client], [CNI_client], [num_paspor], [nom_client], [prénom_client], [adresse_client], [date_naissance_client], [tel_client], [pays], [qualite] FROM dbo.client JOIN CHANGETABLE(CHANGES dbo.client, @sync_last_received_anchor) CT ON CT.[id_client] = dbo.client.[id_client] WHERE (CT.SYS_CHANGE_OPERATION = 'I' AND CT.SYS_CHANGE_CREATION_VERSION  &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.client')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.client')  END " commandType="Text" name="clientSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor11" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary9" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="ad4d1d41-afe1-4b9c-a43f-7a21810bb143" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT CT.[id_client] FROM CHANGETABLE(CHANGES dbo.client, @sync_last_received_anchor) CT WHERE (CT.SYS_CHANGE_OPERATION = 'D' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.client')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.client')  END " commandType="Text" name="clientSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor12" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary10" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="34bd6a80-c2ba-4406-bfe1-8a6084d39bf3" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT dbo.client.[id_client], [CNI_client], [num_paspor], [nom_client], [prénom_client], [adresse_client], [date_naissance_client], [tel_client], [pays], [qualite] FROM dbo.client JOIN CHANGETABLE(CHANGES dbo.client, @sync_last_received_anchor) CT ON CT.[id_client] = dbo.client.[id_client] WHERE (CT.SYS_CHANGE_OPERATION = 'U' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.client')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.client')  END " commandType="Text" name="clientSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized5" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor13" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor5" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary11" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="10b594a3-8213-4373-b27a-1e5a0ca45393" commandText=" SET IDENTITY_INSERT dbo.devise ON ;WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) INSERT INTO dbo.devise ([id_devise], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [prix_devise_en_vente_dh]) VALUES (@id_devise, @nom_devise, @prix_devise_dh, @prix_devise_en_achat_dh, @prix_devise_en_vente_dh) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.devise')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.devise')  SET IDENTITY_INSERT dbo.devise OFF " commandType="Text" name="deviseSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary12" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_devise" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_devise2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_dh2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_achat_dh2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_vente_dh" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count6" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor14" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="9e523482-40e5-4cce-8aec-5154430aafc6" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) DELETE dbo.devise FROM dbo.devise JOIN CHANGETABLE(VERSION dbo.devise, ([id_devise]), (@id_devise)) CT  ON CT.[id_devise] = dbo.devise.[id_devise] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.devise')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.devise') " commandType="Text" name="deviseSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary13" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_devise1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor15" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count7" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="d7a4e8dc-bd23-4b3f-9916-98b2a7ba7b72" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) UPDATE dbo.devise SET [nom_devise] = @nom_devise, [prix_devise_dh] = @prix_devise_dh, [prix_devise_en_achat_dh] = @prix_devise_en_achat_dh, [prix_devise_en_vente_dh] = @prix_devise_en_vente_dh FROM dbo.devise  JOIN CHANGETABLE(VERSION dbo.devise, ([id_devise]), (@id_devise)) CT  ON CT.[id_devise] = dbo.devise.[id_devise] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.devise')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.devise') " commandType="Text" name="deviseSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_devise3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_dh3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_achat_dh3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_vente_dh1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_devise2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write5" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor16" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary14" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count8" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="11f5d47a-13da-4072-8644-dec47cbcfd08" commandText="SELECT CT.[id_devise], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM CHANGETABLE(CHANGES dbo.devise, @sync_last_received_anchor) CT WHERE (CT.[id_devise] = @id_devise AND CT.SYS_CHANGE_OPERATION = 'D')" commandType="Text" name="deviseSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor17" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_devise3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="1442bfd2-8290-401d-a890-dbe18672931a" commandText="SELECT dbo.devise.[id_devise], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [prix_devise_en_vente_dh], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM dbo.devise JOIN CHANGETABLE(VERSION dbo.devise, ([id_devise]), (@id_devise)) CT  ON CT.[id_devise] = dbo.devise.[id_devise]" commandType="Text" name="deviseSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_devise4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="176c3c99-2b8e-47f2-8c20-d8334bfbd82d" commandText="IF @sync_initialized = 0 SELECT dbo.devise.[id_devise], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [prix_devise_en_vente_dh] FROM dbo.devise LEFT OUTER JOIN CHANGETABLE(CHANGES dbo.devise, @sync_last_received_anchor) CT ON CT.[id_devise] = dbo.devise.[id_devise] WHERE (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary) ELSE  BEGIN SELECT dbo.devise.[id_devise], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [prix_devise_en_vente_dh] FROM dbo.devise JOIN CHANGETABLE(CHANGES dbo.devise, @sync_last_received_anchor) CT ON CT.[id_devise] = dbo.devise.[id_devise] WHERE (CT.SYS_CHANGE_OPERATION = 'I' AND CT.SYS_CHANGE_CREATION_VERSION  &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.devise')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.devise')  END " commandType="Text" name="deviseSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized6" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor18" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary15" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor6" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="671e5114-656d-4edd-bd07-09a4b1105e98" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT CT.[id_devise] FROM CHANGETABLE(CHANGES dbo.devise, @sync_last_received_anchor) CT WHERE (CT.SYS_CHANGE_OPERATION = 'D' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.devise')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.devise')  END " commandType="Text" name="deviseSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized7" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor19" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor7" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary16" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="640c284b-d828-40c2-bb2f-5ed1289ed13c" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT dbo.devise.[id_devise], [nom_devise], [prix_devise_dh], [prix_devise_en_achat_dh], [prix_devise_en_vente_dh] FROM dbo.devise JOIN CHANGETABLE(CHANGES dbo.devise, @sync_last_received_anchor) CT ON CT.[id_devise] = dbo.devise.[id_devise] WHERE (CT.SYS_CHANGE_OPERATION = 'U' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.devise')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.devise')  END " commandType="Text" name="deviseSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor20" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary17" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="a379b094-3d7e-4b51-8ec5-108f2663ed62" commandText=" SET IDENTITY_INSERT dbo.directeur ON ;WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) INSERT INTO dbo.directeur ([id_directeur], [CIN_directeur], [nom_directeur], [prénom_directeur], [adresse_directeur], [nom_utilisateur], [mot_de_passe]) VALUES (@id_directeur, @CIN_directeur, @nom_directeur, @prénom_directeur, @adresse_directeur, @nom_utilisateur, @mot_de_passe) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.directeur')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.directeur')  SET IDENTITY_INSERT dbo.directeur OFF " commandType="Text" name="directeurSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary18" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_directeur" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@CIN_directeur" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_directeur" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prénom_directeur" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@adresse_directeur" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_utilisateur" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@mot_de_passe" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count9" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor21" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="87b71936-a7c6-4c41-834c-bf7a4147be22" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) DELETE dbo.directeur FROM dbo.directeur JOIN CHANGETABLE(VERSION dbo.directeur, ([id_directeur]), (@id_directeur)) CT  ON CT.[id_directeur] = dbo.directeur.[id_directeur] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.directeur')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.directeur') " commandType="Text" name="directeurSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary19" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_directeur1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write6" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor22" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count10" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0c32c0f1-dc78-4055-845a-8ae777a010a6" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) UPDATE dbo.directeur SET [CIN_directeur] = @CIN_directeur, [nom_directeur] = @nom_directeur, [prénom_directeur] = @prénom_directeur, [adresse_directeur] = @adresse_directeur, [nom_utilisateur] = @nom_utilisateur, [mot_de_passe] = @mot_de_passe FROM dbo.directeur  JOIN CHANGETABLE(VERSION dbo.directeur, ([id_directeur]), (@id_directeur)) CT  ON CT.[id_directeur] = dbo.directeur.[id_directeur] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.directeur')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.directeur') " commandType="Text" name="directeurSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@CIN_directeur1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_directeur1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prénom_directeur1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@adresse_directeur1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_utilisateur1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@mot_de_passe1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_directeur2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write7" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor23" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary20" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count11" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="95044373-9dc0-44c6-a788-03f87722dbed" commandText="SELECT CT.[id_directeur], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM CHANGETABLE(CHANGES dbo.directeur, @sync_last_received_anchor) CT WHERE (CT.[id_directeur] = @id_directeur AND CT.SYS_CHANGE_OPERATION = 'D')" commandType="Text" name="directeurSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor24" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_directeur3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="4419ef27-2357-4d90-a7a9-856ae970a223" commandText="SELECT dbo.directeur.[id_directeur], [CIN_directeur], [nom_directeur], [prénom_directeur], [adresse_directeur], [nom_utilisateur], [mot_de_passe], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM dbo.directeur JOIN CHANGETABLE(VERSION dbo.directeur, ([id_directeur]), (@id_directeur)) CT  ON CT.[id_directeur] = dbo.directeur.[id_directeur]" commandType="Text" name="directeurSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_directeur4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="60e971d7-e774-4820-9690-ac2f638fe939" commandText="IF @sync_initialized = 0 SELECT dbo.directeur.[id_directeur], [CIN_directeur], [nom_directeur], [prénom_directeur], [adresse_directeur], [nom_utilisateur], [mot_de_passe] FROM dbo.directeur LEFT OUTER JOIN CHANGETABLE(CHANGES dbo.directeur, @sync_last_received_anchor) CT ON CT.[id_directeur] = dbo.directeur.[id_directeur] WHERE (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary) ELSE  BEGIN SELECT dbo.directeur.[id_directeur], [CIN_directeur], [nom_directeur], [prénom_directeur], [adresse_directeur], [nom_utilisateur], [mot_de_passe] FROM dbo.directeur JOIN CHANGETABLE(CHANGES dbo.directeur, @sync_last_received_anchor) CT ON CT.[id_directeur] = dbo.directeur.[id_directeur] WHERE (CT.SYS_CHANGE_OPERATION = 'I' AND CT.SYS_CHANGE_CREATION_VERSION  &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.directeur')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.directeur')  END " commandType="Text" name="directeurSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized9" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor25" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary21" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor9" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="3d517033-7e67-42e6-b6d0-bc21c30df33b" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT CT.[id_directeur] FROM CHANGETABLE(CHANGES dbo.directeur, @sync_last_received_anchor) CT WHERE (CT.SYS_CHANGE_OPERATION = 'D' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.directeur')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.directeur')  END " commandType="Text" name="directeurSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized10" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor26" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor10" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary22" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="211cb562-37c7-42e9-9b8b-aae725a44ee0" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT dbo.directeur.[id_directeur], [CIN_directeur], [nom_directeur], [prénom_directeur], [adresse_directeur], [nom_utilisateur], [mot_de_passe] FROM dbo.directeur JOIN CHANGETABLE(CHANGES dbo.directeur, @sync_last_received_anchor) CT ON CT.[id_directeur] = dbo.directeur.[id_directeur] WHERE (CT.SYS_CHANGE_OPERATION = 'U' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.directeur')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.directeur')  END " commandType="Text" name="directeurSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized11" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor27" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor11" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary23" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="14f402a3-5dda-45a3-8ab3-47be381bd38c" commandText=" SET IDENTITY_INSERT dbo.employé ON ;WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) INSERT INTO dbo.employé ([id_employé], [CIN_employé], [nom_employé], [prénom_employé], [adresse_employé], [mot_de_passe], [image_employé], [nom_utilisateur]) VALUES (@id_employé, @CIN_employé, @nom_employé, @prénom_employé, @adresse_employé, @mot_de_passe, @image_employé, @nom_utilisateur) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.employé')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.employé')  SET IDENTITY_INSERT dbo.employé OFF " commandType="Text" name="employéSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary24" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@CIN_employé" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_employé" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prénom_employé" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@adresse_employé" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@mot_de_passe2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@image_employé" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_utilisateur2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count12" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor28" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="d4baaa33-a998-491a-95a9-0fd2a269953a" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) DELETE dbo.employé FROM dbo.employé JOIN CHANGETABLE(VERSION dbo.employé, ([id_employé]), (@id_employé)) CT  ON CT.[id_employé] = dbo.employé.[id_employé] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.employé')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.employé') " commandType="Text" name="employéSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary25" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor29" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count13" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="cf18d7ed-5304-4a1f-901e-3d5b16dd81ae" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) UPDATE dbo.employé SET [CIN_employé] = @CIN_employé, [nom_employé] = @nom_employé, [prénom_employé] = @prénom_employé, [adresse_employé] = @adresse_employé, [mot_de_passe] = @mot_de_passe, [image_employé] = @image_employé, [nom_utilisateur] = @nom_utilisateur FROM dbo.employé  JOIN CHANGETABLE(VERSION dbo.employé, ([id_employé]), (@id_employé)) CT  ON CT.[id_employé] = dbo.employé.[id_employé] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.employé')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.employé') " commandType="Text" name="employéSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@CIN_employé1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_employé1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prénom_employé1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@adresse_employé1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@mot_de_passe3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@image_employé1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_utilisateur3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write9" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor30" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary26" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count14" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="7bfaa6c5-f286-4241-aac8-283c18410ff3" commandText="SELECT CT.[id_employé], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM CHANGETABLE(CHANGES dbo.employé, @sync_last_received_anchor) CT WHERE (CT.[id_employé] = @id_employé AND CT.SYS_CHANGE_OPERATION = 'D')" commandType="Text" name="employéSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor31" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé5" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="7b317dc9-b0f3-4e65-88d1-961b6e28caa1" commandText="SELECT dbo.employé.[id_employé], [CIN_employé], [nom_employé], [prénom_employé], [adresse_employé], [mot_de_passe], [image_employé], [nom_utilisateur], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM dbo.employé JOIN CHANGETABLE(VERSION dbo.employé, ([id_employé]), (@id_employé)) CT  ON CT.[id_employé] = dbo.employé.[id_employé]" commandType="Text" name="employéSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé6" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0a535ede-e847-4052-add2-992208a76fe6" commandText="IF @sync_initialized = 0 SELECT dbo.employé.[id_employé], [CIN_employé], [nom_employé], [prénom_employé], [adresse_employé], [mot_de_passe], [image_employé], [nom_utilisateur] FROM dbo.employé LEFT OUTER JOIN CHANGETABLE(CHANGES dbo.employé, @sync_last_received_anchor) CT ON CT.[id_employé] = dbo.employé.[id_employé] WHERE (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary) ELSE  BEGIN SELECT dbo.employé.[id_employé], [CIN_employé], [nom_employé], [prénom_employé], [adresse_employé], [mot_de_passe], [image_employé], [nom_utilisateur] FROM dbo.employé JOIN CHANGETABLE(CHANGES dbo.employé, @sync_last_received_anchor) CT ON CT.[id_employé] = dbo.employé.[id_employé] WHERE (CT.SYS_CHANGE_OPERATION = 'I' AND CT.SYS_CHANGE_CREATION_VERSION  &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.employé')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.employé')  END " commandType="Text" name="employéSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized12" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor32" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary27" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor12" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="d984363c-9b2a-4696-bd36-1d3056657e0d" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT CT.[id_employé] FROM CHANGETABLE(CHANGES dbo.employé, @sync_last_received_anchor) CT WHERE (CT.SYS_CHANGE_OPERATION = 'D' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.employé')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.employé')  END " commandType="Text" name="employéSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized13" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor33" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor13" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary28" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="00f1131c-23f8-4015-8fde-71947ad6d6d7" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT dbo.employé.[id_employé], [CIN_employé], [nom_employé], [prénom_employé], [adresse_employé], [mot_de_passe], [image_employé], [nom_utilisateur] FROM dbo.employé JOIN CHANGETABLE(CHANGES dbo.employé, @sync_last_received_anchor) CT ON CT.[id_employé] = dbo.employé.[id_employé] WHERE (CT.SYS_CHANGE_OPERATION = 'U' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.employé')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.employé')  END " commandType="Text" name="employéSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized14" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor34" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor14" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary29" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="ed1ee5aa-b6e3-4015-bb78-94b9171031e7" commandText=" SET IDENTITY_INSERT dbo.vente ON ;WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) INSERT INTO dbo.vente ([id_vente], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_vente_dh], [montant_vente], [date_vente]) VALUES (@id_vente, @id_employé, @id_client, @nom_devise, @prix_devise_dh, @prix_devise_en_vente_dh, @montant_vente, @date_vente) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.vente')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.vente')  SET IDENTITY_INSERT dbo.vente OFF " commandType="Text" name="venteSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary30" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_vente" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé7" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client7" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_devise4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_dh4" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_vente_dh2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@montant_vente" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@date_vente" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count15" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor35" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="67fd951c-951a-4ee0-bea3-d32cf01fb236" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) DELETE dbo.vente FROM dbo.vente JOIN CHANGETABLE(VERSION dbo.vente, ([id_vente]), (@id_vente)) CT  ON CT.[id_vente] = dbo.vente.[id_vente] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.vente')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.vente') " commandType="Text" name="venteSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary31" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_vente1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write10" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor36" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count16" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="02d3858d-293f-4e37-899a-1b5622d5108c" commandText=";WITH CHANGE_TRACKING_CONTEXT (@sync_client_id_binary) UPDATE dbo.vente SET [id_employé] = @id_employé, [id_client] = @id_client, [nom_devise] = @nom_devise, [prix_devise_dh] = @prix_devise_dh, [prix_devise_en_vente_dh] = @prix_devise_en_vente_dh, [montant_vente] = @montant_vente, [date_vente] = @date_vente FROM dbo.vente  JOIN CHANGETABLE(VERSION dbo.vente, ([id_vente]), (@id_vente)) CT  ON CT.[id_vente] = dbo.vente.[id_vente] WHERE (@sync_force_write = 1 OR CT.SYS_CHANGE_VERSION IS NULL OR CT.SYS_CHANGE_VERSION &lt;= @sync_last_received_anchor OR (CT.SYS_CHANGE_CONTEXT IS NOT NULL AND CT.SYS_CHANGE_CONTEXT = @sync_client_id_binary)) SET @sync_row_count = @@rowcount; IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.vente')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.vente') " commandType="Text" name="venteSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_employé8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_client8" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@nom_devise5" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_dh5" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@prix_devise_en_vente_dh3" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@montant_vente1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@date_vente1" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_vente2" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_force_write11" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor37" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary32" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_row_count17" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="adbfe054-4122-45a2-8857-34ece4573ef8" commandText="SELECT CT.[id_vente], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM CHANGETABLE(CHANGES dbo.vente, @sync_last_received_anchor) CT WHERE (CT.[id_vente] = @id_vente AND CT.SYS_CHANGE_OPERATION = 'D')" commandType="Text" name="venteSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor38" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_vente3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="b890147b-596f-453a-8397-df8fd70aa4fc" commandText="SELECT dbo.vente.[id_vente], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_vente_dh], [montant_vente], [profit_vente], [date_vente], CT.SYS_CHANGE_CONTEXT, CT.SYS_CHANGE_VERSION FROM dbo.vente JOIN CHANGETABLE(VERSION dbo.vente, ([id_vente]), (@id_vente)) CT  ON CT.[id_vente] = dbo.vente.[id_vente]" commandType="Text" name="venteSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@id_vente4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0b919f8a-a0f4-42f0-964a-bed990b8e833" commandText="IF @sync_initialized = 0 SELECT dbo.vente.[id_vente], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_vente_dh], [montant_vente], [profit_vente], [date_vente] FROM dbo.vente LEFT OUTER JOIN CHANGETABLE(CHANGES dbo.vente, @sync_last_received_anchor) CT ON CT.[id_vente] = dbo.vente.[id_vente] WHERE (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary) ELSE  BEGIN SELECT dbo.vente.[id_vente], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_vente_dh], [montant_vente], [profit_vente], [date_vente] FROM dbo.vente JOIN CHANGETABLE(CHANGES dbo.vente, @sync_last_received_anchor) CT ON CT.[id_vente] = dbo.vente.[id_vente] WHERE (CT.SYS_CHANGE_OPERATION = 'I' AND CT.SYS_CHANGE_CREATION_VERSION  &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.vente')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.vente')  END " commandType="Text" name="venteSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized15" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor39" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary33" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor15" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="394266a0-e695-4f98-b913-95cb5f2e9bce" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT CT.[id_vente] FROM CHANGETABLE(CHANGES dbo.vente, @sync_last_received_anchor) CT WHERE (CT.SYS_CHANGE_OPERATION = 'D' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.vente')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.vente')  END " commandType="Text" name="venteSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized16" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor40" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor16" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary34" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="8d6551e2-2e33-4b31-9747-d6a532e3f400" commandText="IF @sync_initialized &gt; 0  BEGIN SELECT dbo.vente.[id_vente], [id_employé], [id_client], [nom_devise], [prix_devise_dh], [prix_devise_en_vente_dh], [montant_vente], [profit_vente], [date_vente] FROM dbo.vente JOIN CHANGETABLE(CHANGES dbo.vente, @sync_last_received_anchor) CT ON CT.[id_vente] = dbo.vente.[id_vente] WHERE (CT.SYS_CHANGE_OPERATION = 'U' AND CT.SYS_CHANGE_VERSION &lt;= @sync_new_received_anchor AND (CT.SYS_CHANGE_CONTEXT IS NULL OR CT.SYS_CHANGE_CONTEXT &lt;&gt; @sync_client_id_binary)); IF CHANGE_TRACKING_MIN_VALID_VERSION(object_id(N'dbo.vente')) &gt; @sync_last_received_anchor RAISERROR (N'SQL Server Change Tracking has cleaned up tracking information for table ''%s''. To recover from this error, the client must reinitialize its local database and try again',16,3,N'dbo.vente')  END " commandType="Text" name="venteSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_initialized17" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_last_received_anchor41" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor17" />
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_client_id_binary35" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="5237a3da-be92-46e4-a533-db7ac5e68185" commandText="Select @sync_new_received_anchor = CHANGE_TRACKING_CURRENT_VERSION()" commandType="Text" name="selectNewAnchorCmd" commandKind="SelectNewAnchorCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/f56827de-6889-4789-bda0-a89b6a563fa4/@sync_new_received_anchor18" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+  </syncAdapterCommands>
+  <syncAdapterCommandParameters>
+    <syncAdapterCommandParameter Id="826234a6-e908-466d-8ae9-01844d71b01c" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ae7176cf-69ee-461b-a87b-f0a3cb8d327a" parameterType="Int" parameterName="@id_achat" name="@id_achat" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="51889970-0a92-4278-a9df-baf5f8b10bab" parameterType="Int" parameterName="@id_employé" name="@id_employé" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e0726453-9779-4b0d-93e2-984328b0188b" parameterType="Int" parameterName="@id_client" name="@id_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="56f52a0d-dcaf-45fe-9216-4b6ca96d67d6" parameterType="NVarChar" parameterName="@nom_devise" name="@nom_devise" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="eabe1085-bac6-4a27-b4fb-e303a24721e5" parameterType="Float" parameterName="@prix_devise_dh" name="@prix_devise_dh" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="75a420a5-90f0-41bc-a12d-2c642da04fe9" parameterType="Float" parameterName="@prix_devise_en_achat_dh" name="@prix_devise_en_achat_dh" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="cf692693-07c4-44c0-bacf-2b4657e25433" parameterType="Float" parameterName="@montant_achat" name="@montant_achat" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4ac8522c-5307-4eb7-8a6e-88e32a0eb364" parameterType="DateTime" parameterName="@date_achat" name="@date_achat" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9a842cdc-dc51-448a-81a4-b0dd5494938a" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="0b69add9-f0ba-4a82-98d2-639f4dd92e62" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5341fa77-e758-44bc-a390-5d9d8cd450d7" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6688524b-a47b-4608-9396-ae8636ecdb36" parameterType="Int" parameterName="@id_achat" name="@id_achat1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c2847ced-f147-4648-917a-fcdc14d2592d" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="81826348-d92c-42a3-9df1-4fc1c2614575" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="21f0c9c2-730b-41d9-a07f-12908cc48fb1" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count1" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="442dcf42-8d00-4871-8761-ba3408c4bc4b" parameterType="Int" parameterName="@id_employé" name="@id_employé1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="988a6201-8192-476e-848a-9b5ade0e314b" parameterType="Int" parameterName="@id_client" name="@id_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="96309d9d-13cc-4312-badc-90655e534c84" parameterType="NVarChar" parameterName="@nom_devise" name="@nom_devise1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b4c30047-089f-4359-b21c-414126fadbdf" parameterType="Float" parameterName="@prix_devise_dh" name="@prix_devise_dh1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b0a2e783-9fec-4ded-acae-1d85f9a045a1" parameterType="Float" parameterName="@prix_devise_en_achat_dh" name="@prix_devise_en_achat_dh1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9b613d0e-2e8b-444a-a68f-73e2712c8592" parameterType="Float" parameterName="@montant_achat" name="@montant_achat1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4e2f94c0-c844-4aa6-8c99-e4c70333ec26" parameterType="DateTime" parameterName="@date_achat" name="@date_achat1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3a8f74b3-52f3-4e3a-8af6-c095375008ef" parameterType="Int" parameterName="@id_achat" name="@id_achat2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7105882c-cbfd-4bf1-ac1e-514bc9c4be91" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0ba26a1e-ce22-4fc3-980c-9083d1f55789" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="41639623-1efa-48b1-9788-adb01bf1bd54" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="94e2d970-c12e-460d-b043-4d764df7a7ac" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count2" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="ce538a80-e815-4680-aedb-3aa73d8b25eb" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="17076c51-b962-4735-a67c-81058d591b32" parameterType="Int" parameterName="@id_achat" name="@id_achat3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c6cc2f3e-3294-4e28-ba07-79f004df761a" parameterType="Int" parameterName="@id_achat" name="@id_achat4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3df3cb03-1175-43a0-8d63-d1fa28e5f742" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fc964031-eda8-4b42-846c-cdba513b4ea8" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9715f81b-db67-4b37-9ba8-3ac341f46230" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a5e17881-5565-4501-a1eb-1a856ff241c4" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="61252f7e-9b78-48d8-af22-a7321fff232e" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e98b3ee9-a353-4cc0-8818-57ae6d16a65b" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="36929308-1b97-4a45-9c37-af0a97c7c504" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="914064e2-661c-44ad-b0af-02c0203c317c" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a12fa66c-cdec-43cd-93e3-19f282b4273e" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6c8c22c8-7c12-4c9a-b1b4-8f87800dc969" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1b3657bb-0f8c-43ff-9262-f174092962b0" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="22945df2-e49a-47c6-99a6-2702bdcdfdce" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="07a96085-05e2-4b0d-a49f-78e7c5f9feda" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0e115f93-8711-44da-bee8-ac6d7b3fa94d" parameterType="Int" parameterName="@id_client" name="@id_client2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="623c1dd4-6ae5-42f3-adca-9568a875f433" parameterType="NVarChar" parameterName="@CNI_client" name="@CNI_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="867afe2e-17a4-4f6e-a546-8dbab14853aa" parameterType="NVarChar" parameterName="@num_paspor" name="@num_paspor" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="64f2fc9a-d658-4372-8be0-ab72b5ed73a1" parameterType="NVarChar" parameterName="@nom_client" name="@nom_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1d56e993-63a3-48c5-843d-de6820110de6" parameterType="NVarChar" parameterName="@prénom_client" name="@prénom_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6de40834-7a17-46a8-be41-d3727e186c5f" parameterType="NVarChar" parameterName="@adresse_client" name="@adresse_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ba139758-bdf8-4881-9338-978489279a22" parameterType="Date" parameterName="@date_naissance_client" name="@date_naissance_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8ac9983f-1a45-4477-a794-b3764f9ebd4c" parameterType="NVarChar" parameterName="@tel_client" name="@tel_client" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8def963a-89b1-48d3-8439-46d95a263797" parameterType="NVarChar" parameterName="@pays" name="@pays" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0c193245-83aa-4e03-afff-3436295f4c93" parameterType="NVarChar" parameterName="@qualite" name="@qualite" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="20a6cdcd-7228-4468-91b7-9a454106049f" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count3" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="7ed57570-68a4-4ed9-8fef-2a389043c7d0" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="427d0513-5bad-4367-bf19-db2d4e33482d" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c9ffd21d-d765-499c-9cf7-0a806849778c" parameterType="Int" parameterName="@id_client" name="@id_client3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ea9fce9a-0cc4-4899-8c51-e01d3b857247" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="77b984f0-01f3-499e-bb8c-5c7f0d3f716d" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="907b771e-b7ae-445b-af81-e8e5f973a044" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count4" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="a59d9eee-7164-4fa8-ac1c-3e9258185797" parameterType="NVarChar" parameterName="@CNI_client" name="@CNI_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="10a38e90-182f-43a9-a93f-2f8d26d2fd79" parameterType="NVarChar" parameterName="@num_paspor" name="@num_paspor1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0d4c6713-a602-4efc-867f-33c47daf621f" parameterType="NVarChar" parameterName="@nom_client" name="@nom_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c3eb4b3d-1f53-4231-9d5f-83533484f10d" parameterType="NVarChar" parameterName="@prénom_client" name="@prénom_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c8002d85-9d3f-423d-88f4-fb0e28f0b790" parameterType="NVarChar" parameterName="@adresse_client" name="@adresse_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f85e4241-2292-4c87-9f83-99384d8902d2" parameterType="Date" parameterName="@date_naissance_client" name="@date_naissance_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b98cebb5-9f38-49cc-93b6-a074b9518d1b" parameterType="NVarChar" parameterName="@tel_client" name="@tel_client1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e838dea1-7dbc-4bfe-bdf8-f6a56caf9335" parameterType="NVarChar" parameterName="@pays" name="@pays1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="69b7eb42-3243-4c76-aff8-4ff491f89848" parameterType="NVarChar" parameterName="@qualite" name="@qualite1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3f8d47fc-0eb2-46ab-b91a-8b74a0b512cd" parameterType="Int" parameterName="@id_client" name="@id_client4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4f294caf-6b65-4af1-b5ed-b5f1ffb048d5" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8cc1fe0f-ef6d-4eda-9d30-30d8983ae36e" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ab05d860-2e3e-4b53-b88d-b8fcdefe6b20" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="12032108-bef5-4c1e-abed-220c27292521" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count5" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="1fbb420f-fcc8-409c-b296-deea5781420b" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5b0e875e-7abb-44a0-81e1-163a3c63bfc0" parameterType="Int" parameterName="@id_client" name="@id_client5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8d2beec9-e371-4799-be6c-6e6fa72929d0" parameterType="Int" parameterName="@id_client" name="@id_client6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="75c098e9-ccd2-4ed0-8cdb-739d3da51525" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ddaefba7-6b7d-45d1-90c0-b7092e9fdd04" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ae6bd01a-2cc9-4850-8441-9d0217a4bd4d" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c57f23ec-5179-470c-9021-5aa4b4cc1a66" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fe8badba-6134-428e-9c48-16b0673126f1" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="80e6dcec-c370-4eab-a435-a96007f761da" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="096d590f-970f-4050-bb6a-0196089b67da" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e0a0c02c-a86e-47d6-ba81-82ca4518a343" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="58c87dd6-8fe7-4d33-9df0-609a19d5f7f9" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a6945396-185e-4537-8d3f-bed332b029a0" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="de5a0963-d621-4f58-bddb-ee49d30fd67e" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5e2ddc92-5bb2-470c-98ab-01b99d64ff02" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="612218f7-3508-441f-adc8-9b209085d179" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a37c8a80-ef27-4c78-ac72-40a768e9ee99" parameterType="Int" parameterName="@id_devise" name="@id_devise" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2b3061bf-1a00-4fd6-866d-d26db5137823" parameterType="NVarChar" parameterName="@nom_devise" name="@nom_devise2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bbc38800-7d51-4c83-ab40-48f54ebe27ff" parameterType="Float" parameterName="@prix_devise_dh" name="@prix_devise_dh2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b6e53f97-b7b2-4403-8763-a2708d499329" parameterType="Float" parameterName="@prix_devise_en_achat_dh" name="@prix_devise_en_achat_dh2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="99e813d7-96cf-4042-9723-66485c6606fd" parameterType="Float" parameterName="@prix_devise_en_vente_dh" name="@prix_devise_en_vente_dh" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4189b57e-563b-45d3-936a-c3820d493c04" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count6" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="99f71416-981b-4f50-b397-d1db8be038e8" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="841e516b-3d29-47d6-88ef-b0c96a9a69a9" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c47d6510-5c8e-45ac-874d-1f10070de691" parameterType="Int" parameterName="@id_devise" name="@id_devise1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ac9098fa-ebb9-474c-930c-7e793af1bb24" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="21ac1e33-cfc6-469f-ab59-e069569bf154" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5684bf19-27cf-456e-be2e-3c5a0feecda7" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count7" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="51e520a9-90d5-45ac-823d-f01fdd342d0e" parameterType="NVarChar" parameterName="@nom_devise" name="@nom_devise3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f3010700-d4f6-4f19-bed1-94a35093a667" parameterType="Float" parameterName="@prix_devise_dh" name="@prix_devise_dh3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="78e232a8-f6ed-4058-81ec-51761324a526" parameterType="Float" parameterName="@prix_devise_en_achat_dh" name="@prix_devise_en_achat_dh3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7d4984e1-ca9a-4127-9bce-a147d63f6c61" parameterType="Float" parameterName="@prix_devise_en_vente_dh" name="@prix_devise_en_vente_dh1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4c4804ff-83e5-4888-b13e-4bc42ed1e848" parameterType="Int" parameterName="@id_devise" name="@id_devise2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f8fcdba6-1b6c-4acf-8deb-ab9450f5ab19" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d3fb9278-8218-4680-aff6-b223ace5b096" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="07fdc7bc-9713-4275-b521-edabc09d0d0e" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8b010833-0278-4da9-8520-d20cb0f9be06" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count8" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="9e21e62d-49d8-42bc-bdc5-5319258c4e0d" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9362e9a6-aa01-4871-93fb-1e17dadfb297" parameterType="Int" parameterName="@id_devise" name="@id_devise3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5d14b414-2f59-41c3-be13-001c0232310f" parameterType="Int" parameterName="@id_devise" name="@id_devise4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bf3c0192-7357-4e7b-83bf-ca37d948fcb9" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a892c467-cd33-46fb-8157-ee7946cc9946" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor18" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8c5ee921-81ca-4392-8ff7-941572cfdd28" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="47c30421-40e1-4a74-afe9-9cb9cdb4d349" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="70f66824-1a2c-436d-8c53-27f8d40d1e69" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="052f6693-ae59-4561-8949-b0c8146f2d21" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor19" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c33d234f-a968-4d3f-8c97-df965c7e9114" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5055499e-9ca5-4a52-bd62-bbff09af8e9a" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="665b7182-1b13-450e-b2fe-e4eecadd53ae" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="124ec8fc-f64c-4c73-92ad-84b95ad9b221" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor20" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="705dd7db-34cc-4f5b-8faa-59464b370a7b" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e6e1b153-c202-4b27-850a-c582a7a9bfd3" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="232b9156-297e-4365-9fac-dc3224a13709" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary18" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="66f5cc73-2239-43d7-8f4a-d56c0bba4b95" parameterType="Int" parameterName="@id_directeur" name="@id_directeur" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6a6c6103-22f6-4dfa-bfeb-df0681717fe0" parameterType="NVarChar" parameterName="@CIN_directeur" name="@CIN_directeur" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3544a4cd-bd2b-4d41-a899-f3b48f420d17" parameterType="NVarChar" parameterName="@nom_directeur" name="@nom_directeur" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1b292011-d3fb-43b3-a438-e067b441d850" parameterType="NVarChar" parameterName="@prénom_directeur" name="@prénom_directeur" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="808b9d98-040c-44b7-990b-d0d1a899f32f" parameterType="NVarChar" parameterName="@adresse_directeur" name="@adresse_directeur" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e740b0c4-198c-47a6-a403-1bda8094514c" parameterType="NVarChar" parameterName="@nom_utilisateur" name="@nom_utilisateur" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="cab441b4-8fcf-4e46-b5c8-ee97e2e067a6" parameterType="NVarChar" parameterName="@mot_de_passe" name="@mot_de_passe" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="589503fa-0c68-450a-b920-e8ddb270f75f" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count9" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="b02dc564-f805-4fc8-b395-19e36d379550" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor21" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4929e6f9-3f09-49a4-a6ec-f2378c040af6" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary19" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e39ca8d9-0676-48ee-b37f-7eb455cfee06" parameterType="Int" parameterName="@id_directeur" name="@id_directeur1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c48c0f66-57a5-4007-bb4a-95af2ea12c57" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6be22c1a-70d1-4b32-9d77-ad30ea78132b" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor22" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9bbe3513-9930-4f5f-9320-7ed1331c9039" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count10" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="8a9c1bbc-c8e5-44df-90cc-134f71dec9fd" parameterType="NVarChar" parameterName="@CIN_directeur" name="@CIN_directeur1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="120aab6e-9dd1-42ae-97ad-05a6b0df49a9" parameterType="NVarChar" parameterName="@nom_directeur" name="@nom_directeur1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c6f80bac-b09c-4285-845e-a791eea74b3c" parameterType="NVarChar" parameterName="@prénom_directeur" name="@prénom_directeur1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ae9fe92e-c70f-4fd7-9c23-e73459225c08" parameterType="NVarChar" parameterName="@adresse_directeur" name="@adresse_directeur1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7cf4f4e6-7a43-4eb2-a772-1c75efbdd2ce" parameterType="NVarChar" parameterName="@nom_utilisateur" name="@nom_utilisateur1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a8c2cd74-1cbb-4809-9a3f-58d66c431f49" parameterType="NVarChar" parameterName="@mot_de_passe" name="@mot_de_passe1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a1255650-43f5-45be-b316-2959733fb9ac" parameterType="Int" parameterName="@id_directeur" name="@id_directeur2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="72e88639-b8ba-4891-abf3-6e1e3fb85d41" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1ea487f2-9ca8-453e-93d7-62bb31391dab" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor23" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0655bef1-2dbb-4d70-ba82-002e2c4d41a9" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary20" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a41005bd-033d-49ac-9cc3-ca05dfd6c0ac" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count11" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="1dcbfb28-5bc1-4ede-8af7-8ce23c3faaed" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor24" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3bbdae1f-1491-4b7b-8720-f34297bb2e09" parameterType="Int" parameterName="@id_directeur" name="@id_directeur3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9f583c4d-b692-4eee-a41c-4ebd96c1021e" parameterType="Int" parameterName="@id_directeur" name="@id_directeur4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9e8c5010-9d7e-4336-80b0-e576595d1fde" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="01bc1023-6b04-48cf-9124-f35d184639a1" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor25" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b8eb7457-17a4-40fb-a1be-2f5ee5d9cfc0" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary21" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4aece3cc-cfec-4f5b-934a-b5cca8a4f33d" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3b746053-c654-46f8-a83d-984ecac77e35" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="25370767-12f5-4be8-927d-914c280b66bf" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor26" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0435f891-eed8-4fb4-bd6f-2367294234c2" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="424ff0bb-156a-4833-840a-3cb845278311" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary22" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="32030333-d523-4b46-bda4-8da79cb0849b" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="50ca4878-7f24-412e-a4f3-d3d5ff0fdbc2" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor27" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="afc444c7-7cd0-4dd6-ad97-37f3949bca46" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="57dc5d78-cc79-46c0-b593-9845909ce16c" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary23" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9e7c0634-8b74-4464-bf27-4c0ad10a9f4c" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary24" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6cfb9513-ec47-4d31-809b-bde73fe1cc75" parameterType="Int" parameterName="@id_employé" name="@id_employé2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="084962c1-c6ec-4143-ba11-2001158d2fba" parameterType="NVarChar" parameterName="@CIN_employé" name="@CIN_employé" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="166086a0-c7c8-4a19-9cfd-a748bec4d1c7" parameterType="NVarChar" parameterName="@nom_employé" name="@nom_employé" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c76e9c0e-6b2a-40c2-a576-1efba280074d" parameterType="NVarChar" parameterName="@prénom_employé" name="@prénom_employé" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fb197701-b985-4bf8-8810-998d4e7ba55e" parameterType="NVarChar" parameterName="@adresse_employé" name="@adresse_employé" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="69d54ee3-08d6-49af-b5b3-90f0c3847db8" parameterType="NVarChar" parameterName="@mot_de_passe" name="@mot_de_passe2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="358218ca-f0be-4f0b-bbe3-d12258505689" parameterType="Image" parameterName="@image_employé" name="@image_employé" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="dac2822a-742e-4612-9ea3-f9df679de927" parameterType="NVarChar" parameterName="@nom_utilisateur" name="@nom_utilisateur2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a9884ed8-3024-4b05-9475-9d346391b837" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count12" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="555425e2-806f-48df-877a-d36af6dfebab" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor28" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="68366d43-dee2-4746-a589-93a76a8de880" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary25" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9782fd7d-0076-40e9-9802-36385041ed96" parameterType="Int" parameterName="@id_employé" name="@id_employé3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="549a7845-e836-46c5-8b1d-f2e6431eb37e" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1ad7f38e-85a5-46bf-a51d-4f1a3121c5ad" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor29" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3e28cf81-1ae2-471b-96be-fcdd07a52f5c" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count13" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="ee522983-6e5a-4d19-897c-94ae5233c015" parameterType="NVarChar" parameterName="@CIN_employé" name="@CIN_employé1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="67e6f5c0-9777-4263-8e29-5024a3dae42c" parameterType="NVarChar" parameterName="@nom_employé" name="@nom_employé1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9aa43e57-e5fc-492a-a265-c14028bbe7c3" parameterType="NVarChar" parameterName="@prénom_employé" name="@prénom_employé1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4bce4c6b-5349-4800-a7c2-4c58713be11d" parameterType="NVarChar" parameterName="@adresse_employé" name="@adresse_employé1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="af8ff425-f8b2-46b9-8bb9-560ca5ae48ae" parameterType="NVarChar" parameterName="@mot_de_passe" name="@mot_de_passe3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="dd2ceb06-5345-4c91-bc17-ccc54e849331" parameterType="Image" parameterName="@image_employé" name="@image_employé1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8114f575-3d91-4db7-a90e-76ca7cc8f45d" parameterType="NVarChar" parameterName="@nom_utilisateur" name="@nom_utilisateur3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1ff87011-51bd-4d29-8d45-c1a2275ea0e5" parameterType="Int" parameterName="@id_employé" name="@id_employé4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6a74f1a6-6457-4dbd-a440-5ad9c5f7d961" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c263a5d4-c6c2-4cf1-aa4f-63263e256057" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor30" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4cb92585-dffb-4886-abe8-dbd2f74be416" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary26" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8bbef63b-3abc-41c1-817b-97ca83fac48c" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count14" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="bbab70a3-42f6-47f2-9946-ca37ace84301" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor31" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="871207a7-cc22-4f28-a75b-494186cddf99" parameterType="Int" parameterName="@id_employé" name="@id_employé5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="31f04101-20bd-400b-858f-4c6b00833366" parameterType="Int" parameterName="@id_employé" name="@id_employé6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8f9d79b7-5d7e-419f-8046-0dc727cfd6e2" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a78a5598-bad0-44d3-a23b-ba7c64d0d80f" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor32" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0fcb65da-7810-432c-9d4b-8cc3580a12b4" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary27" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ed909eaa-904a-4d5f-ad5f-4fafa11fe266" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="961b82d0-9524-4b05-87b0-266d8b940378" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e7b1fdfb-2564-4a22-9d44-b0b3c1ca1e9f" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor33" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f84ba861-131f-418e-993b-b8964c1157cb" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c6c0f499-c625-4783-815c-6cbf926b1ced" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary28" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ece27610-af2f-4faf-b408-15e32f338e99" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2e5d845c-0072-478c-b233-e1f2b5569856" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor34" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e7a13b9e-39c0-49e0-b067-35b987b45714" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="eda882d8-1a8a-4c6b-a0ba-1655a23a430f" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary29" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="be0b3362-e100-4968-af6f-f3a8e1bffe8e" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary30" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3a5f6a74-0fed-41b1-9a45-e0d241e56418" parameterType="Int" parameterName="@id_vente" name="@id_vente" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="564d4a35-4154-4747-adf0-288071452593" parameterType="Int" parameterName="@id_employé" name="@id_employé7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2e17e3b6-7807-4e4a-bcdd-9a2dd35e069e" parameterType="Int" parameterName="@id_client" name="@id_client7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="33777f0d-a39e-4a00-b1a5-a6fb748cf3fc" parameterType="NVarChar" parameterName="@nom_devise" name="@nom_devise4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ee2f31f6-5540-49ec-b0d7-92bf36f22301" parameterType="Float" parameterName="@prix_devise_dh" name="@prix_devise_dh4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="abb8c8d5-1761-4e59-9c2b-d9299727aa40" parameterType="Float" parameterName="@prix_devise_en_vente_dh" name="@prix_devise_en_vente_dh2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2579188a-d7bc-4139-a907-08c5c030d600" parameterType="Float" parameterName="@montant_vente" name="@montant_vente" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c59ee697-5864-4277-bf30-e94b9abdfc2b" parameterType="Date" parameterName="@date_vente" name="@date_vente" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7bd631e5-10f5-40ab-8153-164d7c03e638" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count15" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="c812b992-2bd5-4f9e-a2d6-aa4c3b117e47" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor35" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="29b8fc01-d744-46c5-acaa-68fdf5accb23" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary31" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ccb3db1f-3556-4101-9900-e7be5a273a89" parameterType="Int" parameterName="@id_vente" name="@id_vente1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="80015cec-4082-439c-a547-9813f6ce6fc4" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ffd6528c-1352-45a0-aebb-32a6a4787627" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor36" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3c161a0c-c29a-41b0-b1f7-574aeb6a951b" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count16" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="2dc2f146-7969-49a1-95bf-cbfb26114d7e" parameterType="Int" parameterName="@id_employé" name="@id_employé8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="920d22d4-4ce9-492a-8998-a43af619b7c9" parameterType="Int" parameterName="@id_client" name="@id_client8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3d62b95f-e104-454c-bb94-8e33dcbbdcc4" parameterType="NVarChar" parameterName="@nom_devise" name="@nom_devise5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3f8d627f-2a0c-4841-a07d-bf6b6350de01" parameterType="Float" parameterName="@prix_devise_dh" name="@prix_devise_dh5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="80d33000-f7f2-42ae-8dfc-f487dfeaf6e9" parameterType="Float" parameterName="@prix_devise_en_vente_dh" name="@prix_devise_en_vente_dh3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="863a8726-b130-44b8-82a4-ca1e6246b4fe" parameterType="Float" parameterName="@montant_vente" name="@montant_vente1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6fa83100-aeea-49f8-b1eb-8467dd35d9b0" parameterType="Date" parameterName="@date_vente" name="@date_vente1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f3ea2c61-d313-4703-a26b-824084e524a3" parameterType="Int" parameterName="@id_vente" name="@id_vente2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="cc279223-7621-4f18-ab83-17e9d1e1d717" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c20fe1a9-4c68-4aec-89c4-244920f7abb5" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor37" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7dfa8818-289c-4e73-bec4-6c610bd1a1a1" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary32" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ac05d361-f56a-44df-8b36-34fceeed543c" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count17" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="0ceb9a03-6f91-44e0-9e9c-849189110ff3" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor38" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a5e0411d-5ec2-40b0-ae2e-cdf3f4bd0867" parameterType="Int" parameterName="@id_vente" name="@id_vente3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d6210679-313e-492f-8b09-d4fe0a095e31" parameterType="Int" parameterName="@id_vente" name="@id_vente4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6d0d6521-f5c4-4056-8162-ffdd826d9e77" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3ee14904-8924-4eed-bcb5-555eef3d051f" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor39" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9c44a532-8a27-4123-8180-24b00ec76bb9" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary33" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="07fc3cb6-4613-47e2-9016-42de298d3f36" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a9363a76-144c-49ce-a01d-fe7ffaad0f73" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c71af16d-8bf7-4e21-84a4-b9fb9d5ce4cb" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor40" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c223ca94-1248-4e23-8b33-42a1d9a6ec0f" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="23b030ed-bb92-4b9f-8fc4-7a0f6cdb9be6" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary34" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a0b4dab9-672f-4999-be03-d5e551ae02c5" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e25695c9-ba66-4af5-b4c2-ce6df1d8fb7e" parameterType="BigInt" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor41" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="00f71ae9-eb4e-47e1-b2ec-e02e12cd80eb" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f60b0551-7289-41da-9a87-bc99274a69e4" parameterType="VarBinary" parameterName="@sync_client_id_binary" name="@sync_client_id_binary35" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4d712a8b-0a4c-4a4e-903c-4a5c208f5942" parameterType="BigInt" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor18" parameterDirection="Output" />
+  </syncAdapterCommandParameters>
+  <syncConnections>
+    <syncConnection Id="2770a174-eced-426a-a853-9ab0e6076085" name="ClientConnection" connectionDisplayString="Clienteasy_changeConnectionString (Settings)" isAppSettings="true" appSettingsObjectName="Settings" appSettingsPropertyName="Clienteasy_changeConnectionString" appSettingsPropertyReference="" />
+    <syncConnection Id="26edd373-8586-4e0b-9260-8f84a09ac516" name="ServerConnection" connectionDisplayString="easy_changeConnectionString (Settings)" isAppSettings="true" appSettingsObjectName="Settings" appSettingsPropertyName="easy_changeConnectionString" appSettingsPropertyReference="" />
+  </syncConnections>
+</syncDesignerSurface>
